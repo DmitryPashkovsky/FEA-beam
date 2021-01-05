@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(FEA_BEAM)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(FEA_BEAM main.cpp matrix.h matrix.cpp def.h beam_element.h init.h init.cpp structure.h structure.cpp)
